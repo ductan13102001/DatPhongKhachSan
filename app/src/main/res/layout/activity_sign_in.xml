@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SignIn_Activity"
+    tools:targetApi="s">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:gravity="bottom|center">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@mipmap/ic_kokomi_foreground" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edtUserName"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTintMode="add"
+            android:drawableLeft="@drawable/ic_account_box"
+            android:ems="10"
+            android:hint="  Tên đăng nhập"
+            android:inputType="textPersonName"
+            tools:ignore="TouchTargetSizeCheck" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <EditText
+            android:id="@+id/edtPassWord"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTintMode="add"
+            android:drawableLeft="@drawable/ic_vpn_key"
+            android:ems="10"
+            android:hint="  Mật khẩu"
+            android:inputType="textPersonName"
+            android:minHeight="48dp" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSignUp"
+            android:layout_width="300dp"
+            android:layout_height="60dp"
+            android:backgroundTint="@android:color/holo_green_dark"
+            android:text="Đăng nhập" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnSignInGoogle"
+            android:layout_width="300dp"
+            android:layout_height="80dp"
+            android:backgroundTint="#00FFFFFF"
+            android:drawableLeft="@mipmap/ic_google"
+            android:text="Đăng nhập với google"
+            android:textColor="#403838" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="2"
+            android:gravity="right|center_vertical"
+            android:text="Bạn chưa có tài khoản?  "
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/txtSignUp"
+            android:layout_width="0dp"
+            android:layout_height="60dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:text="  Đăng ký"
+            android:textColor="#FF0000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/txtSignIn_next_Forgotpass"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quên mật khẩu"
+            android:textColor="#00BCD4" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="bottom|center"
+            android:text="Bạn đã có tài khoản Google có thể đăng nhập" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_horizontal|top"
+            android:text="mà không cần đăng ký" />
+    </TableRow>
+
+</LinearLayout>

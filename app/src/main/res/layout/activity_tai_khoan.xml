@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaiKhoan_Activity">
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/home_DrawerLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/home_Toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?actionBarSize"
+                    android:background="@android:color/holo_orange_light"></androidx.appcompat.widget.Toolbar>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@mipmap/ic_accout_circle_black"
+                        android:gravity="center"
+                        android:text="Tên tài khoản:" />
+
+                    <TextView
+                        android:id="@+id/txtTaiKhoan_Accout"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Admin" />
+
+                </TableRow>
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:drawableLeft="@mipmap/ic_person"
+                        android:gravity="center"
+                        android:text="Loại tài khoản:" />
+
+                    <TextView
+                        android:id="@+id/txtTaiKhoan_LoaiTaiKhoan"
+                        android:layout_width="0dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:gravity="center|left"
+                        android:text="Tài khoản chính" />
+
+                </TableRow>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="350dp"
+                        android:layout_height="320dp"
+                        android:layout_gravity="right"
+                        android:orientation="vertical">
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </ImageView>
+                        <CheckBox
+                            android:id="@+id/chxThue_TraPhong"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Thuê trả phòng"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxDatPhong"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Thuê trả phòng"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxThietLap_HeThong"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Thuê trả phòng"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxXemlichSu"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Xem lịch sử"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxXemThongKe"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Xem thống kê"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxThietLapKhac"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Thiết lập khác"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxQuanLyKho"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Quản lý kho"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxSuaGioNhanTraPhong"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Sửa giờ nhận trả phòng"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxXemLichDatPhong"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Xem lịch đặt phòng"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+
+                        <CheckBox
+                            android:id="@+id/chxQuanLyThuChiKhac"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:checked="true"
+                            android:text="Quản lý thu chi khác"
+                            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <!--        Tạo menu - layout_gravity: giúp chuyển menu sang bên trái-->
+        <com.google.android.material.navigation.NavigationView
+            android:id="@+id/home_NavigationViewMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            android:fitsSystemWindows="true">
+
+            <ListView
+                android:id="@+id/home_ListView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+            </ListView>
+        </com.google.android.material.navigation.NavigationView>
+    </androidx.drawerlayout.widget.DrawerLayout>
+</LinearLayout>

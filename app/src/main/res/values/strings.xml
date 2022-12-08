@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Đặt phòng khách sạn</string>
+    <string name="title_activity_menu_navigation_drawer">Menu_Navigation_Drawer_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string-array name="list_menu_home">
+        <item>Trang chính</item>
+        <item>Thuê - trả phòng</item>
+        <item>Đặt phòng</item>
+        <item>Quản lý kho</item>
+        <item>Quản lý thu chi</item>
+        <item>Quản lý hệ thống</item>
+        <item>Tài khoản</item>
+        <item>Hướng dẫn sử dụng</item>
+        <item>Đăng xuất</item>
+    </string-array>
+</resources>

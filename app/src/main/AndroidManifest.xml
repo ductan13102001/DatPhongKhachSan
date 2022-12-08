@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Datphongkhachsan"
+        tools:targetApi="31">
+        <activity
+            android:name=".ThemTaiKhoanPhu_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".InHoaDon_ThietLapKhac_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ThongTinKhachSan_ThietLapKhac_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Sua_cachtinhtien_Activity"
+            android:exported="false"
+            android:label="Sửa cách tính tiền">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Them_cachtinhtien_Activity"
+            android:exported="false"
+            android:label="Thêm cách tính tiền">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CachTinhTien_Product_listview"
+            android:exported="false"
+            android:label="Sửa cách tính tiền">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TaiKhoanPhu_Activity"
+            android:exported="false"
+            android:label="Tài khoản phụ">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LichSu_Activity"
+            android:exported="false"
+            android:label="Lịch sử">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Thongke_Activity"
+            android:exported="false"
+            android:label="Thống kê">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".ThietLapKhac_Activity"
+            android:exported="false"
+            android:label="Thiết lập khác">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Menu_Dichvu_Activity"
+            android:exported="false"
+            android:label="Menu / Dịch vụ">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Phong_Activity"
+            android:exported="false"
+            android:label="Phòng">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CachTinhTien_Activity"
+            android:exported="false"
+            android:label="Cách tính tiền">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".LoaiPhong_Activity"
+            android:exported="false"
+            android:label="Loại phòng">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".HuongDanSuDung_Activity"
+            android:exported="false"
+            android:label="Hướng dẫn sử dụng">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TaiKhoan_Activity"
+            android:exported="false"
+            android:label="Tài khoản">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".QuanLy_HeThong_Activity"
+            android:exported="false"
+            android:label="Quản lý hệ thống">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".QuanLy_ThuChi_Activity"
+            android:exported="false"
+            android:label="Quản lý thu chi">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".QuanLyKho_Activity"
+            android:exported="false"
+            android:label="Quản lý kho">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DatPhong_Activity"
+            android:exported="false"
+            android:label="Đặt phòng">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TrangChinh_Activity"
+            android:exported="false"
+            android:label="Trang chính">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Thue_TraPhong_Activity"
+            android:exported="false"
+            android:label="Thuê - Trả phòng">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Home_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".Forgot_password_Activity"
+            android:exported="false"
+            android:label="Quên mật khẩu">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SignUp_Activity"
+            android:exported="false"
+            android:label="Đăng ký">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".SignIn_Activity"
+            android:exported="false"
+            android:label="Đăng nhập">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".CachTinhTien_Product_listview"
+    android:paddingTop="20dp"
+    android:paddingLeft="20dp">
+
+    <TextView
+        android:id="@+id/txtName_loaiPhong_cachTinhTien"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Loại phòng" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/ic_schedule"
+            android:gravity="center_vertical"
+            android:text="Giá theo giờ" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/ic_mode_night"
+            android:gravity="center_vertical"
+            android:text="Giá theo ngày" />
+
+        <TextView
+            android:id="@+id/textView11"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:drawableLeft="@mipmap/ic_wb_sunny"
+            android:gravity="center_vertical"
+            android:text="Giá qua đêm" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/txtGiaTheoGio_CachTinhTien"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="80N" />
+
+        <TextView
+            android:id="@+id/txtGiaTheoNgay_CachTinhTien"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="250N" />
+
+        <TextView
+            android:id="@+id/txtGiaQuaDem_CachTinhTien"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="150N" />
+    </TableRow>
+</LinearLayout>
